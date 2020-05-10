@@ -1,2 +1,22 @@
-<!--pages/contact/contact.wxml-->
-<text>pages/contact/contact.wxml</text>
+<!-- pages/contact/contact.wxml -->
+<!-- <text>pages/contact/contact.wxml</text> -->
+<view class="container">
+    <!-- <view class="banner"> -->
+    <image src="/images/contact/banner.jpg" />
+    <!-- </view> -->
+    <view class="box">
+        <view class="block">
+            <view class="title">公司总部</view>
+            <view class="same">地址：XXX省XXX市XXX县XXX路XXX号</view>
+            <view class="same">邮编：000000</view>
+        </view>
+    </view>
+    <view class="box">
+        <view class="block">
+            <view class="title">客服服务</view>
+            <view class="same">客服热线：020-000000</view>
+            <view class="same">周一至周日：7：00-23：00</view>
+            <view class="same">邮箱：xxx@.co.m</view>
+        </view>
+    </view>
+</view>

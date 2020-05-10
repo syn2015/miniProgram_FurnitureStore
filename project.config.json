@@ -57,6 +57,13 @@
 					"id": -1,
 					"name": "pages/new/new",
 					"pathName": "pages/new/new",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/contact/contact",
+					"pathName": "pages/contact/contact",
 					"scene": null
 				}
 			]
