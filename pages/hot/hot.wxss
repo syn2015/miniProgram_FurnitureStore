@@ -1,1 +1,60 @@
 /* pages/hot/hot.wxss */
+
+/* 热销 */
+.top {
+    height: 100rpx;
+    line-height: 100rpx;
+    position: relative;
+}
+
+.top .line {
+    width: 32%;
+    background-color: #ccc;
+    height: 4rpx;
+
+}
+
+.same {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.top .title {
+    width: 26%;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* block4 */
+.block4 {
+    background-color: #fff;
+    margin-bottom: 20rpx;
+}
+
+.block4 .down {
+    border-top: 4rpx solid #fafafa;
+    padding: 20rpx;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block4 .down view {
+    width: 48%;
+    overflow: hidden;
+    margin-top: 20rpx;
+}
+
+.block4 .down view image {
+    width: 100%;
+    height: 200rpx;
+    display: block;
+    border-radius: 8rpx;
+    border: 2rpx solid #ccc;
+
+
+}

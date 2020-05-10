@@ -1,2 +1,115 @@
-<!--pages/hot/hot.wxml-->
-<text>pages/hot/hot.wxml</text>
+<!-- pages/hot/hot.wxml -->
+<!-- <text>pages/hot/hot.wxml</text> -->
+<view class="container">
+    <view class="block4">
+        <view class="top">
+            <view class="line same"></view>
+            <view class="title same">热卖</view>
+        </view>
+        <view class="down">
+            <view>
+                <image src="/images/product/01-1.jpg" />
+                <text>纯色家纺套件</text>
+            </view>
+            <view>
+                <image src="/images/product/01-2.jpg" />
+                <text>纯色家纺套件</text>
+            </view>
+            <view>
+                <image src="/images/product/01-3.jpg" />
+                <text>纯色家纺套件</text>
+            </view>
+            <view>
+                <image src="/images/product/01-4.jpg" />
+                <text>纯色家纺套件</text>
+            </view>
+            <!-- <view >
+        <image src="/images/home/05-5.jpg" />
+      </view> -->
+        </view>
+    </view>
+    <!--  -->
+    <view class="block4">
+        <view class="top">
+            <view class="line same"></view>
+            <view class="title same">被芯</view>
+        </view>
+        <view class="down">
+            <view>
+                <image src="/images/product/02-1.jpg" />
+                <text>冬季被子加厚保暖冬被芯</text>
+            </view>
+            <view>
+                <image src="/images/product/02-2.jpg" />
+                <text>加厚保暖冬被芯</text>
+            </view>
+            <view>
+                <image src="/images/product/02-3.jpg" />
+                <text>100%纯羊毛被芯</text>
+            </view>
+            <view>
+                <image src="/images/product/02-4.jpg" />
+                <text>空调被被芯</text>
+            </view>
+        </view>
+    </view>
+    <!-- <view >
+        
+        </view>
+    <!-- -->
+    <view class="block4">
+        <view class="top">
+            <view class="line same"></view>
+            <view class="title same">枕头</view>
+        </view>
+        <view class="down">
+            <view>
+                <image src="/images/product/03-1.jpg" />
+                <text>枕头枕芯一对装</text>
+            </view>
+            <view>
+                <image src="/images/product/03-2.jpg" />
+                <text>带枕套决明子枕芯</text>
+            </view>
+            <view>
+                <image src="/images/product/03-3.jpg" />
+                <text>棉麻抱枕</text>
+            </view>
+            <view>
+                <image src="/images/product/03-4.jpg" />
+                <text>一对装护颈枕芯</text>
+            </view>
+            <!-- <view >
+        <image src="/images/home/05-5.jpg" />
+      </view> -->
+        </view>
+    </view>
+    <!--  -->
+    <view class="block4">
+        <view class="top">
+            <view class="line same"></view>
+            <view class="title same">套件</view>
+        </view>
+        <view class="down">
+            <view>
+                <image src="/images/product/04-1.jpg" />
+                <text>全棉加厚四件套</text>
+            </view>
+            <view>
+                <image src="/images/product/04-2.jpg" />
+                <text>全棉加厚四件套</text>
+            </view>
+            <view>
+                <image src="/images/product/04-3.jpg" />
+                <text>全棉加厚四件套</text>
+            </view>
+            <view>
+                <image src="/images/product/04-4.jpg" />
+                <text>全棉加厚四件套</text>
+            </view>
+            <!-- <view >
+        <image src="/images/home/05-5.jpg" />
+      </view> -->
+        </view>
+    </view>
+</view>
