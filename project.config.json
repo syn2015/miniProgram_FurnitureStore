@@ -64,6 +64,21 @@
 					"id": -1,
 					"name": "pages/contact/contact",
 					"pathName": "pages/contact/contact",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "component/btn/btn",
+					"pathName": "component/btn/btn",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/home",
+					"pathName": "pages/home/home",
+					"query": "",
 					"scene": null
 				}
 			]

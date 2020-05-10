@@ -1,0 +1,29 @@
+/* component/btn/btn.wxss */
+@import '/iconfont/iconfont.wxss';
+.btnBox {
+    width: 80rpx;
+    position: fixed;
+    right: 20rpx;
+    bottom: 20rpx;
+}
+
+.btnBox view {
+    width: 80rpx;
+    height: 80rpx;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    margin-bottom: 20rpx;
+    box-shadow: 0 0 10rpx;
+    text-align: center;
+    line-height: 80rpx;
+    color: #666;
+}
+.icon1::after{
+    content: '\e623';
+}
+.icon2::after{
+    content: '\e60d';
+}
+.icon3::after{
+    content: '\e604';
+}

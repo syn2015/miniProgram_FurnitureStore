@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/hot/hot",
     "pages/new/new",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "component/btn/btn"
   ],
   "window": {
     "backgroundTextStyle": "light",
