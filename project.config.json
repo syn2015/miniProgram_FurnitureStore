@@ -50,6 +50,13 @@
 					"id": -1,
 					"name": "pages/hot/hot",
 					"pathName": "pages/hot/hot",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/new/new",
+					"pathName": "pages/new/new",
 					"scene": null
 				}
 			]

@@ -1,2 +1,28 @@
-<!--pages/new/new.wxml-->
-<text>pages/new/new.wxml</text>
+<!-- pages/new/new.wxml -->
+<!-- <text>pages/new/new.wxml</text> -->
+<view class="container">
+    <view class="block">
+        <image src="/images/new/01.jpg" />
+        <view class="title">全棉加厚斜纹磨毛纯棉四件套被套多花色</view>
+        <view class="bottom">
+            <view class="txt">全棉磨毛温暖舒适多花色可选</view>
+            <view class="btn">立即咨询</view>
+        </view>
+    </view>
+    <view class="block">
+        <image src="/images/new/02.jpg" />
+        <view class="title">全棉四件套枕套床单被套</view>
+        <view class="bottom">
+            <view class="txt">纯棉四件套柔软奈肤舒适</view>
+            <view class="btn">立即咨询</view>
+        </view>
+    </view>
+    <view class="block">
+        <image src="/images/new/03.jpg" />
+        <view class="title">全棉磨毛加厚四件套</view>
+        <view class="bottom">
+            <view class="txt">100%棉加厚保暖</view>
+            <view class="btn">立即咨询</view>
+        </view>
+    </view>
+</view>
