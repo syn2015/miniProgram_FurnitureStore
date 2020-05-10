@@ -21,12 +21,74 @@
     <view>
       <image src="/images/home/02remai.png" />
       <view>热卖</view>
-      <image src="/images/home/02remai.png" />
-      <view>热卖</view>
-      <image src="/images/home/02remai.png" />
-      <view>热卖</view>
-      <image src="/images/home/02remai.png" />
-      <view>热卖</view>
+    </view>
+    <view>
+      <image src="/images/home/02beixin.png" />
+      <view>被芯</view>
+    </view>
+    <view>
+      <image src="/images/home/02zhentou.png" />
+      <view>枕头</view>
+    </view>
+    <view>
+      <image src="/images/home/02taojian.png" />
+      <view>套件</view>
     </view>
   </view>
+  <!-- 新品 -->
+  <view class="block1 ">
+    <view class="top ">
+      <view class="line same"></view>
+      <view class="title same">新品上市</view>
+    </view>
+    <view class="down ">
+      <view class="page-section page-section-spacing swiper">
+        <swiper indicator-dots="{{indicatorDots1}}" autoplay="{{autoplay1}}" interval="{{interval1}}" duration="{{duration1}}" bindchange="swiperFn1">
+          <block wx:for="{{background1}}" wx:key="*this">
+            <swiper-item>
+              <image src="{{item}}"></image>
+            </swiper-item>
+          </block>
+        </swiper>
+        <view class="indicatorDots">
+          <view class="{{index==num1?'active':''}}" wx:for="{{background1}}" wx:key="*this"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 复用轮播 -->
+  <!-- 一张图 -->
+  <view class="block2">
+    <image src="/images/home/04banner.jpg" />
+  </view>
+  <!-- block3 -->
+  <view class="block3">
+    <image src="/images/home/04left.jpg" />
+    <image src="/images/home/04right.jpg" />
+  </view>
+  <!-- block4 -->
+  <view class="block4">
+    <view class="top">
+      <view class="line same"></view>
+      <view class="title same">热销产品</view>
+    </view>
+    <view class="down">
+      <view >
+        <image src="/images/home/05-1.jpg" />
+      </view>
+       <view >
+        <image src="/images/home/05-2.jpg" />
+      </view>
+       <view >
+        <image src="/images/home/05-3.jpg" />
+      </view>
+       <view >
+        <image src="/images/home/05-4.jpg" />
+      </view>
+       <!-- <view >
+        <image src="/images/home/05-5.jpg" />
+      </view> -->
+    </view>
+  </view>
+  
 </view>

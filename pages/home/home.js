@@ -12,11 +12,24 @@ Page({
     interval: 2000,
     duration: 500,
     // 默认选择
-    num:0
+    num:0,
+    background1: ['/images/home/03banner1.jpg', '/images/home/03banner2.jpg'],
+    indicatorDots1: false,
+    vertical1: false,
+    autoplay1: true,
+    interval1: 2000,
+    duration1: 500,
+    // 默认选择
+    num1:0
   },
   swiperFn(e){
     this.setData({
       num:e.detail.current
+    })
+  },
+  swiperFn1(e){
+    this.setData({
+      num1:e.detail.current
     })
   },
 

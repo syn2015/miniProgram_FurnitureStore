@@ -36,16 +36,100 @@ swiper image {
   background: #fff;
   padding: 20rpx 20rpx;
   display: flex;
-
+  justify-content: space-around;
+  margin-top: 20rpx;
 
 }
 
 .show>view {
   width: 20%;
   /* justify-content: center; */
+  text-align: center;
 
 }
 
-/* .show>view image{
+.show>view image {
   width: 100%;
-} */
+  display: block;
+  height: 150rpx;
+}
+
+/* 新品上市 */
+.block1 {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+
+.top {
+  height: 100rpx;
+  line-height: 100rpx;
+  position: relative;
+}
+
+.top .line {
+  width: 32%;
+  background-color: #ccc;
+  height: 4rpx;
+
+}
+
+.same {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.top .title {
+  width: 26%;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* block2 */
+.block2{
+  margin-top: 20rpx;
+}
+.block2 image{
+  width: 100%;
+  height: 400rpx;
+  display: block;
+}
+/* block3 */
+.block3{
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.block3 image{
+  display: block  ;
+  width: 49%;
+
+}
+/* block4 */
+.block4{
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.block4 .down{
+  border-top: 4rpx solid #fafafa;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.block4 .down view{
+  width: 48%;
+  border-radius: 8rpx;
+  overflow: hidden;
+  border: 2rpx solid #ccc;
+  margin-top: 20rpx;
+}
+.block4 .down view image{
+  width: 100%;
+  height: 200rpx;
+  display: block;
+}
