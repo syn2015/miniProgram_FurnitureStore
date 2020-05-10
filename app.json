@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/hot/hot",
+    "pages/new/new",
+    "pages/contact/contact"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "FurnitureStore",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "999",
+    "selectedColor": "F5B43E",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/bar/00bar-1-old.png",
+        "selectedIconPath": "/images/bar/00bar-1-new.png"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热销产品",
+        "iconPath": "/images/bar/00bar-2-old.png",
+        "selectedIconPath": "/images/bar/00bar-2-new.png"
+      },
+      {
+        "pagePath": "pages/new/new",
+        "text": "新品特惠",
+        "iconPath": "/images/bar/00bar-3-old.png",
+        "selectedIconPath": "/images/bar/00bar-3-new.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们",
+        "iconPath": "/images/bar/00bar-4-old.png",
+        "selectedIconPath": "/images/bar/00bar-4-new.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

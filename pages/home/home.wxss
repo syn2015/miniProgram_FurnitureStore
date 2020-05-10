@@ -1,0 +1,51 @@
+/* pages/home/home.wxss */
+swiper,
+swiper-item,
+swiper image {
+  width: 100%;
+  height: 400rpx;
+}
+
+.swiper {
+  position: relative;
+}
+
+.indicatorDots {
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+}
+
+.indicatorDots view {
+  width: 20rpx;
+  height: 20rpx;
+  background: #ccc;
+  border-radius: 20rpx;
+  float: left;
+  margin: 0 10rpx;
+  transition: width 0.5s;
+}
+
+.indicatorDots view.active {
+  background-color: #F5B43E;
+  width: 36rpx;
+}
+
+/* 内容 */
+.show {
+  background: #fff;
+  padding: 20rpx 20rpx;
+  display: flex;
+
+
+}
+
+.show>view {
+  width: 20%;
+  /* justify-content: center; */
+
+}
+
+/* .show>view image{
+  width: 100%;
+} */
