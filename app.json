@@ -4,7 +4,8 @@
     "pages/hot/hot",
     "pages/new/new",
     "pages/contact/contact",
-    "component/btn/btn"
+    "component/btn/btn",
+    "pages/map/map"
   ],
   "window": {
     "backgroundTextStyle": "light",

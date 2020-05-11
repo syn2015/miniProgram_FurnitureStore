@@ -91,5 +91,5 @@
     </view>
   </view>
   <!-- 组件 -->
-  <btn-component></btn-component>
+  <btn-component bind:totop="toTop"></btn-component>
 </view>

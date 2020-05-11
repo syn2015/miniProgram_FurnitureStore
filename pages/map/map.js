@@ -1,27 +1,51 @@
-// component/btn/btn.js
+// pages/map/map.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    markers: [{
+      // iconPath: "/resources/others.png",
+      id: 0,
+      latitude: 23.099994,
+      longitude: 113.324520,
+      width: 50,
+      height: 50
+    }],
+    polyline: [{
+      points: [{
+        longitude: 113.3245211,
+        latitude: 23.10229
+      }, {
+        longitude: 113.324520,
+        latitude: 23.21229
+      }],
+      color: "#FF0000DD",
+      width: 2,
+      dottedLine: true
+    }]
+    // controls: [{
+    //   id: 1,
+    //   // iconPath: '/resources/location.png',
+    //   position: {
+    //     left: 0,
+    //     top: 300 - 50,
+    //     width: 50,
+    //     height: 50
+    //   },
+    //   clickable: true
+    // }]
   },
-  // 子组件传递父组件的方法名称和参数
-  toToFn(){
-    this.triggerEvent('totop',0);
+  regionchange(e) {
+    console.log(e.type)
   },
-  makePhone(){
-    wx.makePhoneCall({
-      phoneNumber:'010-00000000'
-    })
+  markertap(e) {
+    console.log(e.detail.markerId)
   },
-  jumpToMap(){
-    wx.navigateTo({
-      url:'/pages/map/map'
-    })
+  controltap(e) {
+    console.log(e.detail.controlId)
   },
-
 
   /**
    * 生命周期函数--监听页面加载

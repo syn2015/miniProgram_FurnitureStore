@@ -32,6 +32,13 @@ Page({
       num1:e.detail.current
     })
   },
+  // 返回顶部，e接收来自子组件的参数
+  toTop(e){
+    console.log(e);
+   wx.pageScrollTo({
+     scrollTop: 0
+   })
+  },
 
   /**
    * 生命周期函数--监听页面加载

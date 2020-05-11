@@ -1,7 +1,7 @@
 <!--component/btn/btn.wxml-->
 <!-- <text>component/btn/btn.wxml</text> -->
 <view class="btnBox">
-    <view class="iconfont icon1"></view>
-    <view ><text class="iconfont icon2"></text></view>
-    <view ><text class="iconfont icon3"></text></view>
+    <view class="iconfont icon1" bindtap="toToFn"></view>
+    <view ><text class="iconfont icon2" bindtap='makePhone'></text></view>
+    <view ><text class="iconfont icon3" bind:tap="jumpToMap"></text></view>
 </view>
